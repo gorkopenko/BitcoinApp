@@ -13,8 +13,10 @@
 		A545A84626035A6B0021507D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545A84426035A6B0021507D /* Main.storyboard */; };
 		A545A84826035A740021507D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A545A84726035A740021507D /* Assets.xcassets */; };
 		A545A84B26035A740021507D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545A84926035A740021507D /* LaunchScreen.storyboard */; };
-		A545A85326035FF70021507D /* BitcoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A85226035FF70021507D /* BitcoinManager.swift */; };
-		A545A855260360CC0021507D /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A854260360CC0021507D /* BitcoinData.swift */; };
+		A545A85326035FF70021507D /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A85226035FF70021507D /* CoinManager.swift */; };
+		A545A855260360CC0021507D /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A854260360CC0021507D /* CoinData.swift */; };
+		A545A85826066A940021507D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A85726066A940021507D /* SecondViewController.swift */; };
+		A545A85A260672600021507D /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A859260672600021507D /* BitcoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,10 @@
 		A545A84726035A740021507D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A545A84A26035A740021507D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A545A84C26035A740021507D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A545A85226035FF70021507D /* BitcoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinManager.swift; sourceTree = "<group>"; };
-		A545A854260360CC0021507D /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
+		A545A85226035FF70021507D /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		A545A854260360CC0021507D /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		A545A85726066A940021507D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A545A859260672600021507D /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +66,10 @@
 			children = (
 				A545A83E26035A6B0021507D /* AppDelegate.swift */,
 				A545A84026035A6B0021507D /* SceneDelegate.swift */,
-				A545A85226035FF70021507D /* BitcoinManager.swift */,
-				A545A854260360CC0021507D /* BitcoinData.swift */,
+				A545A85226035FF70021507D /* CoinManager.swift */,
+				A545A854260360CC0021507D /* CoinData.swift */,
+				A545A859260672600021507D /* BitcoinData.swift */,
+				A545A85726066A940021507D /* SecondViewController.swift */,
 				A545A84226035A6B0021507D /* ViewController.swift */,
 				A545A84426035A6B0021507D /* Main.storyboard */,
 				A545A84726035A740021507D /* Assets.xcassets */,
@@ -144,10 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A545A85A260672600021507D /* BitcoinData.swift in Sources */,
+				A545A85826066A940021507D /* SecondViewController.swift in Sources */,
 				A545A84326035A6B0021507D /* ViewController.swift in Sources */,
 				A545A83F26035A6B0021507D /* AppDelegate.swift in Sources */,
-				A545A855260360CC0021507D /* BitcoinData.swift in Sources */,
-				A545A85326035FF70021507D /* BitcoinManager.swift in Sources */,
+				A545A855260360CC0021507D /* CoinData.swift in Sources */,
+				A545A85326035FF70021507D /* CoinManager.swift in Sources */,
 				A545A84126035A6B0021507D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
