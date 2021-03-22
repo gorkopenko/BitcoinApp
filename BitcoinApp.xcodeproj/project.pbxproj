@@ -91,8 +91,8 @@
 		A545A8822607D6270021507D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A545A85726066A940021507D /* SecondViewController.swift */,
 				A545A84226035A6B0021507D /* ViewController.swift */,
+				A545A85726066A940021507D /* SecondViewController.swift */,
 				A545A87D260751F60021507D /* DetailsViewController.swift */,
 			);
 			path = Controllers;
