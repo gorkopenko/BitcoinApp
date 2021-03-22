@@ -17,6 +17,7 @@
 		A545A855260360CC0021507D /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A854260360CC0021507D /* CoinData.swift */; };
 		A545A85826066A940021507D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A85726066A940021507D /* SecondViewController.swift */; };
 		A545A85A260672600021507D /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A859260672600021507D /* BitcoinData.swift */; };
+		A545A87E260751F60021507D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545A87D260751F60021507D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A545A854260360CC0021507D /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		A545A85726066A940021507D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A545A859260672600021507D /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
+		A545A87D260751F60021507D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +68,34 @@
 			children = (
 				A545A83E26035A6B0021507D /* AppDelegate.swift */,
 				A545A84026035A6B0021507D /* SceneDelegate.swift */,
-				A545A85226035FF70021507D /* CoinManager.swift */,
-				A545A854260360CC0021507D /* CoinData.swift */,
-				A545A859260672600021507D /* BitcoinData.swift */,
-				A545A85726066A940021507D /* SecondViewController.swift */,
-				A545A84226035A6B0021507D /* ViewController.swift */,
+				A545A8812607D60E0021507D /* Managers */,
+				A545A8822607D6270021507D /* Controllers */,
 				A545A84426035A6B0021507D /* Main.storyboard */,
 				A545A84726035A740021507D /* Assets.xcassets */,
 				A545A84926035A740021507D /* LaunchScreen.storyboard */,
 				A545A84C26035A740021507D /* Info.plist */,
 			);
 			path = BitcoinApp;
+			sourceTree = "<group>";
+		};
+		A545A8812607D60E0021507D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A545A85226035FF70021507D /* CoinManager.swift */,
+				A545A854260360CC0021507D /* CoinData.swift */,
+				A545A859260672600021507D /* BitcoinData.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A545A8822607D6270021507D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A545A85726066A940021507D /* SecondViewController.swift */,
+				A545A84226035A6B0021507D /* ViewController.swift */,
+				A545A87D260751F60021507D /* DetailsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +172,7 @@
 				A545A85A260672600021507D /* BitcoinData.swift in Sources */,
 				A545A85826066A940021507D /* SecondViewController.swift in Sources */,
 				A545A84326035A6B0021507D /* ViewController.swift in Sources */,
+				A545A87E260751F60021507D /* DetailsViewController.swift in Sources */,
 				A545A83F26035A6B0021507D /* AppDelegate.swift in Sources */,
 				A545A855260360CC0021507D /* CoinData.swift in Sources */,
 				A545A85326035FF70021507D /* CoinManager.swift in Sources */,
