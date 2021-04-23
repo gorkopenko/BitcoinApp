@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TransactionViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var fetchedBitcoin = [BitcoinData]()
     var myIndex = 0
@@ -38,7 +38,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myIndex = indexPath.row
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Details") as! DetailsViewController
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Details") as! TransactionDetailsViewController
         vc.data = fetchedBitcoin[indexPath.row]
         self.present(vc, animated: true)
         

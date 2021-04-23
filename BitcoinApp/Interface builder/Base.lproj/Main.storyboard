@@ -11,7 +11,7 @@
         <!--Калькулятор-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ConverterViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,12 +150,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
+            <point key="canvasLocation" x="1164" y="-323"/>
         </scene>
         <!--BitcoinApp -->
         <scene sceneID="GVl-dt-MmM">
             <objects>
-                <viewController id="7z7-po-G4W" customClass="SecondViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7z7-po-G4W" customClass="TransactionViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aGW-ei-g6d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,12 +212,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8AR-ky-EdH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2728.985507246377" y="116.51785714285714"/>
+            <point key="canvasLocation" x="2072" y="558"/>
         </scene>
-        <!--Details View Controller-->
+        <!--Transaction Details View Controller-->
         <scene sceneID="Ayo-uj-zkC">
             <objects>
-                <viewController storyboardIdentifier="Details" id="ysh-KQ-nvh" customClass="DetailsViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Details" id="ysh-KQ-nvh" customClass="TransactionDetailsViewController" customModule="BitcoinApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CJc-eG-esv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,7 +312,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5g-pZ-uQJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3531.884057971015" y="116.51785714285714"/>
+            <point key="canvasLocation" x="3013" y="558"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="IR2-hr-XMT">
@@ -350,7 +350,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o4h-BU-3T5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1818.840579710145" y="116.51785714285714"/>
+            <point key="canvasLocation" x="1164" y="559"/>
         </scene>
     </scenes>
     <resources>

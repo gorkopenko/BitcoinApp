@@ -8,9 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITabBarDelegate {
-    
-    private var isFinishedTypingNumber: Bool = true
+class ConverterViewController: UIViewController, UITabBarDelegate {
     
     var currencyData: CurrencyData?
     
@@ -31,11 +29,12 @@ class ViewController: UIViewController, UITabBarDelegate {
             alert.addAction(UIAlertAction(title: "Закрыть", style: UIAlertAction.Style.default, handler: nil))
             
             self.present(alert, animated: true, completion: nil)
+            totalBitcoin.text = ""
             
         } else if let currencyData = currencyData {
-            var rate = Double(currencyData.rate.replacingOccurrences(of: ",", with: ""))!
-            var rate2 = Double(sumTextField.text!)!
-            var total = rate2 / rate
+            let rate = Double(currencyData.rate.replacingOccurrences(of: ",", with: ""))!
+            let rate2 = Double(sumTextField.text!)!
+            let total = rate2 / rate
             totalBitcoin.text = "\(total)"
             
         }
@@ -54,7 +53,7 @@ class ViewController: UIViewController, UITabBarDelegate {
     }
 }
 
-extension ViewController: CoinManagerDelegate {
+extension ConverterViewController: CoinManagerDelegate {
     
     func didUpdatePrice(currencyData: CurrencyData) {
         
@@ -70,7 +69,7 @@ extension ViewController: CoinManagerDelegate {
     }
 }
 
-extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
+extension ConverterViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

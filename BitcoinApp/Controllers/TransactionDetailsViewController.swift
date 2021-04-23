@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class DetailsViewController: UIViewController {
+class TransactionDetailsViewController: UIViewController {
     
     var data: BitcoinData!
     
